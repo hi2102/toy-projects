@@ -1,0 +1,53 @@
+fieldset {
+  margin: 3rem 2rem;
+  width: fit-content;
+  padding: 2rem;
+  border-radius: .5rem;
+}
+caption { 
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+table,
+th {
+  background: #333;
+  padding : 1rem;
+  border-radius: .75rem;
+}
+th { 
+  padding-right: .5rem;
+  height: 5rem;
+}
+td { 
+  height: 2rem; 
+  text-align: center;
+}
+th > input { 
+  width: 100%;
+  border: none;
+  background: #333;
+  color: #fff;
+  text-align: right;
+  font-size: 1.5rem;
+}
+td > input {
+  width: 100%;
+  height: inherit;
+  color: #333;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: .25rem;
+}
+td > input[type='button'] {
+  width: 100%;
+  height: inherit; 
+  color: #333;
+  font-size: 1.5rem;
+  border: none;
+}
+td > input[type='button']:hover {
+  background: #999;
+}
+td:last-child > input {
+  background: orange;color: #fff;
+}
