@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exam</title>
+  <style>
+    .container {
+      width: 30rem;
+      display: flex;
+      gap: .5rem;
+      /* overflow: hidden; */
+    }
+    .container img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="./images/image01.jpg" alt="" name="img1" />
+    <img src="./images/image02.jpg" alt="" name="img2" />
+    <img src="./images/image03.jpg" alt="" name="img3" />
+  </div>
+  <div>
+    <button id="btn">change image</button>
+  </div>
+  <script>
+    const imgs = [...document.querySelectorAll('img')]
+    const btn = document.getElementById('btn')
+    
+    btn.addEventListener('click', change)
+    function change() {
+      imgs.map(img => {
+        if (img.name === 'img1') {
+          img.setAttribute('src', './images/image03.jpg')
+        } else if (img.name === 'img3') {
+          img.setAttribute('src', './images/image01.jpg')
+        }
+      })
+    }
+  </script>
+</body>
+</html>
