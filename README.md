@@ -1,4 +1,4 @@
 # My Vanilla Toy Projects
 
-### To-Do List
-### Calculator
+### 1. To-Do List
+### 2. Calculator
