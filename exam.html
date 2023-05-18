@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exam</title>
+  <style>
+    fieldset {
+      width:fit-content;
+      padding: 3rem;
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <h1>나이 계산기</h1>
+    <div>
+      <label for="age">
+        <p>출생한 연도를 입력하세요</p>
+      </label>
+    </div>
+    <input type="text" name="" id="age">
+    <button id="btn">확인</button>
+  </fieldset>
+  <script>
+    const button = document.getElementById('btn');
+
+    button.addEventListener('click',anser)
+    function anser(e) {
+      e.preventDefault();
+      const userInput= document.getElementById('age');
+      const userBirthYear = Number(userInput.value);
+      const year = new Date().getFullYear();
+      console.log(`당신의 나이는 ${(year - userBirthYear)}살 입니다.`)
+    }
+  </script>
+</body>
+</html>
