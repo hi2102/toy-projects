@@ -1,5 +1,3 @@
-# My Vanilla Toy Projects
+# calendar
 
-### 1. To-Do List
-### 2. Calculator
-### 3. Light Box
+### 바닐라 js로 만든 캘린더
