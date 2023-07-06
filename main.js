@@ -33,12 +33,10 @@ function calendar(newYear, newMonth) {
 
   calendar(year, month);
 
-  prev.onclick = function (e) {
-    e.preventDefault();
+  prev.onclick = function () {
     calendar(year, --month)
   }
-  next.onclick = function (e) {
-    e.preventDefault();
+  next.onclick = function () {
     calendar(year, ++month)
   }
 })();
