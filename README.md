@@ -24,7 +24,7 @@
 1)<img width="100%" alt="error" src="https://github.com/hi2102/toy-projects/assets/71423455/c85c3a19-aa5f-40fc-ad36-e38d4227811c">
 
 2)<img width="100%" height='160px' alt="calendar init 01" src="https://github.com/hi2102/toy-projects/assets/71423455/76e6ab61-7f0b-4904-b049-ce7edef73969">
-<img width="100%" height='160px' alt="event Listener" src="https://github.com/hi2102/toy-projects/assets/71423455/4d98d9c5-47bd-402c-8021-93f9b01e631a">
+<img width="100%" height='120px' alt="event Listener" src="https://github.com/hi2102/toy-projects/assets/71423455/4d98d9c5-47bd-402c-8021-93f9b01e631a">
 <img width="33%" height='180px' alt="code change 01" src="https://github.com/hi2102/toy-projects/assets/71423455/659e504d-003d-497a-930c-8fd00149ec66">
 <img width="33%" height='180px' alt="code change 02" src="https://github.com/hi2102/toy-projects/assets/71423455/d96b411b-4ae0-4745-b050-f9cb914ed902">
 <img width="33%" height='180px' alt="code change 03" src="https://github.com/hi2102/toy-projects/assets/71423455/9d5c6d3d-3ef9-4365-aa32-754bb79eb60e">
